@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		1C082C291B4BA8DF00E3004C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C082C281B4BA8DF00E3004C /* main.m */; };
 		1C082C2C1B4BA8DF00E3004C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C082C2B1B4BA8DF00E3004C /* AppDelegate.m */; };
-		1C082C2F1B4BA8DF00E3004C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C082C2E1B4BA8DF00E3004C /* ViewController.m */; };
 		1C082C321B4BA8DF00E3004C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C082C301B4BA8DF00E3004C /* Main.storyboard */; };
 		1C082C341B4BA8DF00E3004C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C082C331B4BA8DF00E3004C /* Images.xcassets */; };
 		1C082C371B4BA8DF00E3004C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C082C351B4BA8DF00E3004C /* LaunchScreen.xib */; };
 		1C082C431B4BA8DF00E3004C /* Tabbar__________KVO____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C082C421B4BA8DF00E3004C /* Tabbar__________KVO____Tests.m */; };
+		1C082C4E1B4CA8D700E3004C /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C082C4D1B4CA8D700E3004C /* DownloadViewController.m */; };
+		1C082C511B4CA8E400E3004C /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C082C501B4CA8E400E3004C /* BookmarkViewController.m */; };
+		1C082C541B4CAA2E00E3004C /* Quantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C082C531B4CAA2E00E3004C /* Quantity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		1C082C281B4BA8DF00E3004C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C082C2A1B4BA8DF00E3004C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C082C2B1B4BA8DF00E3004C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C082C2D1B4BA8DF00E3004C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C082C2E1B4BA8DF00E3004C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C082C311B4BA8DF00E3004C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C082C331B4BA8DF00E3004C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1C082C361B4BA8DF00E3004C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1C082C3C1B4BA8DF00E3004C /* Tabbar的使用-页面间传值(KVO-单例)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabbar的使用-页面间传值(KVO-单例)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C082C411B4BA8DF00E3004C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C082C421B4BA8DF00E3004C /* Tabbar__________KVO____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tabbar__________KVO____Tests.m"; sourceTree = "<group>"; };
+		1C082C4C1B4CA8D700E3004C /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		1C082C4D1B4CA8D700E3004C /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		1C082C4F1B4CA8E400E3004C /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkViewController.h; sourceTree = "<group>"; };
+		1C082C501B4CA8E400E3004C /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkViewController.m; sourceTree = "<group>"; };
+		1C082C521B4CAA2E00E3004C /* Quantity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quantity.h; sourceTree = "<group>"; };
+		1C082C531B4CAA2E00E3004C /* Quantity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quantity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +89,16 @@
 			children = (
 				1C082C2A1B4BA8DF00E3004C /* AppDelegate.h */,
 				1C082C2B1B4BA8DF00E3004C /* AppDelegate.m */,
-				1C082C2D1B4BA8DF00E3004C /* ViewController.h */,
-				1C082C2E1B4BA8DF00E3004C /* ViewController.m */,
 				1C082C301B4BA8DF00E3004C /* Main.storyboard */,
 				1C082C331B4BA8DF00E3004C /* Images.xcassets */,
 				1C082C351B4BA8DF00E3004C /* LaunchScreen.xib */,
 				1C082C261B4BA8DF00E3004C /* Supporting Files */,
+				1C082C4C1B4CA8D700E3004C /* DownloadViewController.h */,
+				1C082C4D1B4CA8D700E3004C /* DownloadViewController.m */,
+				1C082C4F1B4CA8E400E3004C /* BookmarkViewController.h */,
+				1C082C501B4CA8E400E3004C /* BookmarkViewController.m */,
+				1C082C521B4CAA2E00E3004C /* Quantity.h */,
+				1C082C531B4CAA2E00E3004C /* Quantity.m */,
 			);
 			path = "Tabbar的使用-页面间传值(KVO-单例)";
 			sourceTree = "<group>";
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C082C2F1B4BA8DF00E3004C /* ViewController.m in Sources */,
+				1C082C511B4CA8E400E3004C /* BookmarkViewController.m in Sources */,
 				1C082C2C1B4BA8DF00E3004C /* AppDelegate.m in Sources */,
+				1C082C541B4CAA2E00E3004C /* Quantity.m in Sources */,
 				1C082C291B4BA8DF00E3004C /* main.m in Sources */,
+				1C082C4E1B4CA8D700E3004C /* DownloadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
